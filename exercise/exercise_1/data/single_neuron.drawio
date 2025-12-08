@@ -1,0 +1,60 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="vqxDzjIabOGoyuBRUB6Y">
+    <mxGraphModel dx="735" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" parent="1" source="t24LFLkwLsQTAv5NFlOj-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.9999999999998" y="400.0588235294118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-10" value="Output &lt;font face=&quot;Times New Roman&quot;&gt;a&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="t24LFLkwLsQTAv5NFlOj-9" vertex="1" connectable="0">
+          <mxGeometry x="0.9252" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-1" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;&quot;&gt;z&lt;sub style=&quot;&quot;&gt;x&lt;/sub&gt;&amp;nbsp;= w&lt;sub style=&quot;&quot;&gt;x &lt;/sub&gt;* x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;f (z&lt;sub style=&quot;&quot;&gt;x&lt;/sub&gt;)&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="320" y="320" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="t24LFLkwLsQTAv5NFlOj-1" target="t24LFLkwLsQTAv5NFlOj-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="450" as="sourcePoint" />
+            <mxPoint x="460" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="t24LFLkwLsQTAv5NFlOj-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;w&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="t24LFLkwLsQTAv5NFlOj-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.034" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;strokeWidth=0.5;dashed=1;" parent="1" source="t24LFLkwLsQTAv5NFlOj-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.11764705882354" y="399.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-5" value="weights" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-7" value="x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-8" value="input" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;strokeWidth=0.5;" parent="1" source="t24LFLkwLsQTAv5NFlOj-11" target="t24LFLkwLsQTAv5NFlOj-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t24LFLkwLsQTAv5NFlOj-11" value="Activation function (e.g. sigmoid)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
