@@ -13,6 +13,11 @@
 
 ---
 
+## Requirements
+- Python 3.8+
+- Jupyter Notebook
+- For more details, please refer to the `requirements.txt` file.
+
 ## Content
 - [Data](./data/) - Several datasets used in the notebooks
 - [Exercise](./exercise/) - Exercise notebooks for the lecture
