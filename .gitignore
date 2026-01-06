@@ -7,3 +7,6 @@ env/
 .env/
 # Datasets
 data/MNIST/t*
+# tmp files
+*.tmp
+*tmp_*
