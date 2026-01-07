@@ -1,5 +1,12 @@
 # python stuff
 __pycache__/
-
+# python virtual environments
+venv/
+env/
+.venv/
+.env/
 # Datasets
 data/MNIST/t*
+# tmp files
+*.tmp
+*tmp_*

@@ -1,0 +1,95 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="rQAy080QZ0JD2BYhht3L">
+    <mxGraphModel dx="1055" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.04;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-YvSfTG5YXtL2jXOx6c--1" target="-YvSfTG5YXtL2jXOx6c--18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="306.62790697674427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--5" value="$$ u = qlu(x)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="-YvSfTG5YXtL2jXOx6c--3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0219" y="-2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.04;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=8 8;" parent="1" source="-YvSfTG5YXtL2jXOx6c--1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="334.5348837209302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--1" value="$$qlu(x)$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.04,0.33,0,0,0],[0.04,0.68,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.96,0.33,0,0,0],[0.96,0.68,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.04;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="-YvSfTG5YXtL2jXOx6c--1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="306" as="sourcePoint" />
+            <mxPoint x="290" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--4" value="$$x$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="-YvSfTG5YXtL2jXOx6c--2" vertex="1" connectable="0">
+          <mxGeometry x="0.3697" y="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=8 8;exitX=0.04;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-YvSfTG5YXtL2jXOx6c--18" target="-YvSfTG5YXtL2jXOx6c--1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="334" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--11" value="$$\frac{\partial L}{\partial u} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial u} \space \text{ mit&amp;nbsp; } \frac{\partial y}{\partial u} = cos(u)$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#CC0000;" parent="-YvSfTG5YXtL2jXOx6c--6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0742" y="2" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.96;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-YvSfTG5YXtL2jXOx6c--18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="306.29787234042556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--20" value="$$y = sin(qlu(x))$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="-YvSfTG5YXtL2jXOx6c--19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0723" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--18" value="$$sin(u)$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.04,0.33,0,0,0],[0.04,0.68,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.96,0.33,0,0,0],[0.96,0.68,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="570" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.68;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=8 8;" parent="1" target="-YvSfTG5YXtL2jXOx6c--18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="334" as="sourcePoint" />
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--22" value="$$\frac{\partial L}{\partial y} = 1$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#CC0000;" parent="-YvSfTG5YXtL2jXOx6c--21" vertex="1" connectable="0">
+          <mxGeometry x="-0.0742" y="2" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YvSfTG5YXtL2jXOx6c--25" value="Wie sensibel ist der Loss gegenüber Änderungen in &lt;font face=&quot;Times New Roman&quot;&gt;&lt;span&gt;u&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="425" y="420" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSU1IDUPxcqGh18E43e3-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;width=4;endWidth=9.30232558139535;endSize=3.8558139534883717;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSU1IDUPxcqGh18E43e3-3" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;$$\frac{\partial L}{\partial u} \cdot$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="360" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSU1IDUPxcqGh18E43e3-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;$$\frac{\partial L}{\partial x} = $$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSU1IDUPxcqGh18E43e3-13" value="$$\frac{\partial u}{\partial x}&amp;nbsp; \text{ mit } \frac{\partial u}{\partial x} = qlu&#39;(x)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="420" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
